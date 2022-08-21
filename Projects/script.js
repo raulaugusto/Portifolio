@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(window).resize(function(){
         var width = $(window).width();
         //Assuming X=550   
-        if(width <= 947){
+        if(width <= 1075){
             $('.ll .left').insertBefore('.ll .right');
             $('.lefttext').removeClass('lefttext').addClass('righttext');
             $('.leftl').removeClass('leftl').addClass('right');
