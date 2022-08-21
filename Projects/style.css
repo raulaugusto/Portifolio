@@ -159,7 +159,7 @@ section .title::after{
 .home{
     display: flex; 
     height: 100vh;
-    background: url(images1/wallpaper.jpg);
+    background: url(images1/wallpaper.jpg) no-repeat center;
     color: #fff;
     min-height: 500px;
     background-size: cover;
