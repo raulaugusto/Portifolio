@@ -415,7 +415,7 @@ section .title::after{
         line-height: 38px;
     }
 }
-@media only screen and (max-width:947px){
+@media only screen and (max-width:1075px){
   .short-text { display: inline-block; }
   .full-text { display: none; }
   .vertical-row{ display: none;}
