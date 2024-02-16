@@ -551,7 +551,45 @@ footer span a:hover{
 }
 
 
-
+.lefttext.ll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .lefttext.ll .column {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .lefttext.ll .text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .lefttext.ll p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .lefttext.ll #botao {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  
+  .lefttext.ll #botao:hover {
+    background-color: #8b0000;
+  }
 
 @media (max-width: 1104px) {
     .about .about-content .left img{

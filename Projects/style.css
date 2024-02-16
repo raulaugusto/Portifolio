@@ -337,10 +337,6 @@ section .title::after {
   }
 }
 
-@media (max-width: 947px) {
-  .projects;
-}
-
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
